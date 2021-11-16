@@ -1,0 +1,497 @@
+@import url(navbar.css);
+@import url(footer.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 10%;
+}
+
+/* shared */
+h2 {
+    font-size: 2.25rem;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+    padding-bottom: 63px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 33px;
+    letter-spacing: 0.1em;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+}
+
+h5 {
+    font-size: 4.5rem;
+    line-height: 98px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 0.875rem;
+    line-height: 20px;
+    font-weight: 400; 
+}
+
+
+/* hero */
+.hero {
+    background: #050400;
+    height: 100vh;
+    background-size: cover;
+}
+
+.hero-text {
+    display: block;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    column-gap: 10vw;
+}
+
+.hero-text h1 {
+    font-weight: 700;
+    font-size: 2.25rem;
+    color: #fff;
+    
+}
+
+.hero-text p {
+    color: #fff;
+    padding-top: 1.563em;
+    margin-right: 20%;   
+}
+
+#textArray {
+    font-weight: 700;
+    font-size: 3rem;
+    color: #00A3FF;
+    padding-top: 0.938em;
+}
+
+.btn-hero {
+    padding-top: 3.125em;
+}
+
+.type-1 {
+    background: #fff;
+    color: #242424;
+    width: 102px;
+    height: 46px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+}
+
+.type-1:hover {
+    background: #B08953;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.type-2 {
+    background: #242424;
+    color: white;
+    width: 102px;
+    height: 46px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+}
+
+.type-2:hover {
+    background: #B08953;
+    transition: 0.5s;
+}
+
+/* .type-3 {
+    background: #242424;
+    color: white;
+    width: 102px;
+    height: 46px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.type-3 i {
+    padding-left: 10px;
+    font-size: 1.2rem;
+} */
+
+.social {
+    padding-top: 3.125em;
+}
+
+.social i {
+    color: #fff;
+    width: 50px;
+    font-size: 1.7rem;
+}
+
+.social i:hover {
+    color: #00A3FF;
+    transition: 0.5s;
+}
+
+/* about */
+.about {
+    margin: 20% 0;
+}
+
+.about-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    column-gap: 5rem;
+    align-items: center;
+    
+}
+
+.about-item h4 {
+    padding-top: 30px;
+}
+
+.about-item p {
+    padding-top: 20px;
+}
+
+.skill-item {
+    margin: 30% 0 20%;
+}
+
+.card {
+    --auto-grid-min-size: 15rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    grid-gap: 5rem;
+}
+
+.skill-card {
+    background: #fff;
+    filter: drop-shadow(3px 7px 15px rgba(0, 0, 0, 0.25));
+    padding: 15% 2% 35% 10%;
+    max-width: 100%;
+}
+
+.skill-card h4 {
+    letter-spacing: 0;
+}
+
+.skill-card li {
+    list-style-type: none;
+    line-height: 1.8rem;
+}
+
+.knowledge {
+    background-color: #050400;
+}
+
+.k-card {
+    padding: 10% 0;
+    --auto-grid-min-size: 15rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    grid-gap: 5rem;
+}
+
+.knowledge-card {
+    background-color: #fff;
+    padding: 15% 10% 15% 10%;
+    max-width: 100%;
+}
+
+.knowledge-card h4 {
+    letter-spacing: 0;
+    padding-bottom: 2rem;
+}
+
+.knowledge-card:hover {
+    background-color: transparent;
+    border: 3px solid #fff;
+    color: #fff;
+    transition: 0.5s;
+}
+
+/* projects */
+.project-view {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    column-gap: 5rem;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.project-view-img {
+    max-width: 100%;
+}
+
+.project-text h3 {
+    padding-bottom: 20px;
+}
+
+.project-text p {
+    padding-bottom: 30px;
+}
+
+.project-text ul {
+    padding-bottom: 50px;
+    display: flex;
+    list-style-type: none;
+}
+
+.project-skill-list li {
+    padding-right: 49px;
+    font-size: 0.875rem;
+}
+
+.divider {
+    background-color: #050400;
+    margin: 20% 0;
+    
+}
+
+.middle-text {
+    color: #fff;
+    padding: 15% 10% 15% 10%;
+    max-width: 100%;
+}
+
+.filter {
+    justify-content: right;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.filter li {
+    padding-left: 49px;
+    font-size: 0.875rem;
+    cursor: pointer;
+}
+
+.filter li::after {
+    content: '';
+    width: 0%;
+    height: 1px;
+    background: #050400;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.filter li:hover::after {
+    width: 100%;
+}
+
+.filter-clicker {
+    display: flex;
+    display: none;
+    justify-content: right;
+    padding-bottom: 50px;
+}
+
+.filter-content {
+    --auto-grid-min-size: 15rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    grid-gap: 3rem;
+    margin-bottom: 259px;
+}
+
+.logos {
+    --auto-grid-min-size: 15rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    grid-gap: 3rem;
+    margin-bottom: 436px;
+}
+/* contact */
+.contact {
+    background-color: #050400;
+}
+
+.form-form {
+    padding: 10% 10%;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    column-gap: 8rem;
+}
+
+input[type=name] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;  
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;  
+}
+/* END */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* responsiveness */
+
+/* xs phone */
+@media (max-width: 350px) {
+    .hero-text p {
+        display: none;
+    }
+}
+
+/* m phone */
+@media (max-width: 420px) {
+    .hero-text h1 {
+        font-size: 1.45rem;
+    }
+
+    #textArray {
+        font-size: 1.9rem;
+    }
+}
+
+/* phone */
+@media (max-width: 560px) {
+    .knowledge-card {
+        text-align: center;
+    }
+
+    .option-btn {
+        display: none;
+    }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+    .middle-text h5 {
+        font-size: 2rem;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    .form-text h5 {
+        font-size: 2rem;
+        line-height: 50px;
+    }
+
+    .filter {
+        display: none;
+    }
+
+    .true-filter {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        row-gap: 1rem;
+        background: #fff;
+        filter: drop-shadow(3px 7px 15px rgba(0, 0, 0, 0.25));
+        padding: 15px;
+        /* transition: all 0.5s ease; */
+    }
+
+    /* .true-filter li :active {
+        color: #00A3FF;
+    } */
+
+    .filter-clicker {
+        display: flex;
+    }
+    
+}
+
+/* laptops or large tablet */
+@media (max-width: 1040px) {
+    h2 {
+        display: none;
+    }
+    
+    .hero-text {
+        display: block;
+        top: 30%;
+    }
+    
+    .hero-img {
+        display: none;
+    }
+
+    .about-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-text {
+        padding-top: 10%;
+    }
+
+    .project-view {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-text {
+        padding-top: 10%;
+        text-align: center;
+    }
+
+    .project-skill-list li {
+        display: none;
+    }
+
+    .form-form {
+        display: flex;
+        flex-direction: column;
+        row-gap: 5rem;
+    }
+}
+
+/* desktop and larger screen */
+@media (max-width: 1200px) {
+
+}
+

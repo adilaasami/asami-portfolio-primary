@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adil Sami</title>
+    <!-- tags -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" href="asset/whtfav.png" type="image/png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="hero">
+        <header>
+            <nav>
+                <div id="navbar" class="navbar">
+                    <!--Used for bg of navbar-->
+                    <a href="index.html"><img src="asset/whitelogo.png" alt="logo" class="logo"></a>
+
+                    <span id="burgerbtn" class="burger" onclick="openNav()"><i class="fas fa-bars"></i></span>
+                </div>
+
+                <div id="myNav" class="overlay">
+                    <!--Used for bg of navlinks-->
+                    <span id="closebtn" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></span>
+                    <ul class="navlinks">
+                        <li><a href="index.html" onclick="closeNav()">Home</a></li>
+                        <li><a href="#n_about" onclick="closeNav()">About</a></li>
+                        <li><a href="#n_project" onclick="closeNav()">Projects</a></li>
+                        <li><a href="#n_contact" onclick="closeNav()">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="container">
+            <div class="hero-text">
+                <div class="hero-data">
+                    <h1>Hi, I'm Adil Sami</h1>
+                    <span id="textArray"></span><br>
+                    <p>Hello, Welcome to my Portfolio Website. Glad you came please have a look at my amazing works.</p>
+                    <div class="btn-hero">
+                        <a href="asset/adilSami_resume.pdf" target="_blank"><button class="type-1">Resume</button></a>
+                        <a href="#n_project"><button style="margin-left:3%;" class="type-1">Project</button></a>
+                    </div>
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/adil-sami-b82432184/" target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Asamivii" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/adil.asami/" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="hero-img">
+                    <img class="img-me" src="img/heroimg.png" alt="adil">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="n_about" class="about">
+        <div class="container">
+            <h2>About</h2>
+            <div class="about-item">
+                <img class="img-m2" src="img/about.png" alt="my picture" width="100%">
+                <div class="about-text">
+                    <h3>Who is Adil Sami?</h3>
+                    <p>Graduate of Information & Communication Technology who’s motivated and detail-orientated with a
+                        passion to create stunning user interface with clean & organized code, I am seeking a role in a
+                        reputed IT Company where I can grow and continue to learn from other experienced team members.
+                    </p>
+                    <h4>My Education</h4>
+                    <p><strong>University of Texas at Arlington</strong>, Aug 17 – May 21 B.A. in Information &
+                        Communication Technology Arlington, TX</p>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h2>Skills</h2>
+                <div class="card">
+                    <div class="skill-card">
+                        <h4>Programs</h4>
+                        <br>
+                        <li>Adobe Illustrator</li>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe Premiere Pro</li>
+                        <li>Adobe XD</li>
+                        <li>Figma</li>
+                        <li>Microsoft Office</li>
+                    </div>
+                    <div class="skill-card">
+                        <h4>Frontend</h4>
+                        <br>
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JSON</li>
+                        <li>AJAX</li>
+                        <li>MySQL</li>
+
+                    </div>
+                    <div class="skill-card">
+                        <h4>Extension & Others</h4>
+                        <br>
+                        <li>jQuery</li>
+                        <li>Git</li>
+                        <li>GSAP</li>
+                        <li>Bootstrap 4 & 5</li>
+                        <li>DHTML</li>
+                        <li>SCSS</li>
+                        <li>PHP</li>
+                    </div>
+                    <div class="skill-card">
+                        <h4>Languages</h4>
+                        <br>
+                        <li>English</li>
+                        <li>Bengali</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="knowledge">
+            <div class="container">
+                <div class="k-card">
+                    <div class="knowledge-card">
+                        <h4>Graphic Design</h4>
+                        <p>I work on designing professional graphic arts using vector or photographs to create pieces of
+                            art. Using Adobe creative suite like Illustrator and Photoshop to create stunning posters,
+                            banners and graphic illustrations for advertising.</p>
+                    </div>
+                    <div class="knowledge-card">
+                        <h4>Frontend Code</h4>
+                        <p>Web or client-side development is one of my greatest skills, especially when working with
+                            HTML, CSS and JavaScript. Making Web Applications user friendly and highly flexible on all
+                            devices and having content hiercahy is one of my feats. But not only that also keeping up
+                            with newer trends on design is a great way to constantly stay on my toes.</p>
+                    </div>
+                    <div class="knowledge-card">
+                        <h4>UI Design</h4>
+                        <p>Using my skills on anticipating user needs and wants I ensure that my designs has elements
+                            easy for users to access, understand and use. I do this by architecting my design on XD and
+                            Figma to make sure that the design is able to communicate with the user effectively.</p>
+                    </div>
+                    <div class="knowledge-card">
+                        <h4>UX Research</h4>
+                        <p>When making a product design I ensure that I understand the Why, What, and How. This way I am
+                            able to provide a meaningful and relevant experience to the user. It is done by
+                            understanding user needs and wants the brand, making the design user friendly by designing
+                            for scalability for all devices and functionality.</p>
+                    </div>
+                    <div class="knowledge-card">
+                        <h4>Data Manegment</h4>
+                        <p>Storing data and managing them in order to integrate them into a Web Application is a big
+                            process. I have done exactly that with my project by storing data inside a secure data
+                            management program and integrating that into the website for checkout functionality.</p>
+                    </div>
+                    <div class="knowledge-card">
+                        <h4>A/B Testing</h4>
+                        <p>Split testing is a big key feature methodology that I heavily empathizes on when designing
+                            for clients. That way I get a great understanding of what they want in a website in order to
+                            grab their target audience attention.</p>
+                    </div>
+                    <div class="knowledge-card">
+                        <h4>Problem Solver</h4>
+                        <p>As you can tell I love problem solving, and coming up with ideas to fix a users problem is a
+                            great feeling. I do it by mostly listening to the problem and coming up with various
+                            solutions until we can narrow it down.</p>
+                    </div>
+                    <div class="knowledge-card">
+                        <h4>Communication</h4>
+                        <p>Having great communication is a very effective way to understand one another. I believe that
+                            by talking to one another we learn to understand each other and get a good idea of who they
+                            are. This is very crucial because that way designers and developers like us get to really
+                            put on the clients shoes and understand their issues better.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="n_project" class="project">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-view">
+                <img class="project-view-img" src="img/unprotected.png" alt="unprotected victim non-profit">
+                <div class="project-text">
+                    <h3>Unprotected Victim</h3>
+                    <p>Team UI/UX Designer Lead and Usability Tester where I created the Communication brief to conduct
+                        Audience analysis, Perception/Tone/Guidelines, Communication strategy, Competitive
+                        positioning, and Target message. Generated Audience profiles according to analysis, designed
+                        Initial/Final wireframe and prototype with scalability using Figma, made the
+                        Visual design guide for text, colors, icons, and image placement and feel, used HTML, CSS,
+                        Bootstrap 5, and JavaScript to develop
+                        responsive front-end, conducted Usability evaluation report for website effectiveness and
+                        debugging
+                    </p>
+                    <ul class="project-skill-list">
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>Php</li>
+                        <li>javaScript</li>
+                        <li>Bootstrap</li>
+                        <li>Figma</li>
+                    </ul>
+                    <div class="project-btn">
+                        <a href="http://ctec4350.irk9623.uta.cloud/UnProtectedVictims/" target="_blank"><button
+                                class="type-2">View</button></a>
+                        <a href="https://github.com/isaackweb/UnProtected-Victims" target="_blank"><button
+                                style="margin-left:3%;" class="type-2">Source Code</button></a>
+                        <a href="https://ctec4350.axs9858.uta.cloud/UV-Staging-Site-main/" target="_blank"><button
+                                style="margin-left:3%;" class="type-2 option-btn">Staging Site</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-view">
+                <img class="project-view-img" src="img/tc.png" alt="tc data manegment project">
+                <div class="project-text">
+                    <h3>Taqueria Charly</h3>
+                    <p>Conducted SEO from Google word search analytics, created SWOT analysis of company to compare
+                        against other competitors and
+                        researched User flows and Audience profile/Personas. Built Sitemap, made initial wireframe with
+                        scalability in mind for better user experience on all devices, and then high-fidelity wireframe
+                        into
+                        prototype using Adobe XD, used HTML, CSS, and Bootstrap 4 to create front-end portion of the
+                        website with great user flexibility on all
+                        devices including smartphones. Created a MySQL database under cPanel then used Back-End
+                        server-side php to display menu items from database to website and
+                        implement the check-out functionality, conducted Usability evaluation report for website
+                        effectiveness and debugging </p>
+                    <ul class="project-skill-list">
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>Php</li>
+                        <li>Bootstrap</li>
+                        <li>Figma</li>
+                    </ul>
+                    <div class="project-btn">
+                        <a href="http://ctec4321.axs9858.uta.cloud/term_project/" target="_blank"><button
+                                class="type-2">View</button></a>
+                        <button style="margin-left:3%;" class="type-2">Source Code</button>
+                    </div>
+                </div>
+            </div>
+            <div class="project-view">
+                <img class="project-view-img" src="img/deli.png" alt="deli potential UI Design">
+                <div class="project-text">
+                    <h3>Deli Potential UI/UX App Design</h3>
+                    <p>Made this app design when I was feeling hungry, the app is designed to have user make an account
+                        and find thier favorite food items. Users can also watch videos or look at steps to make the
+                        food or upload their own.</p>
+                    <ul class="project-skill-list">
+                        <li>Figma</li>
+                        <li>Adobe Illustrator</li>
+                        <li>Adobe Photoshop</li>
+                    </ul>
+                    <div class="project-btn">
+                        <button class="type-2">View</button>
+                        <!-- <button style="margin-left:3%;"class="type-2">Source Code</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider">
+            <div class="container middle-text">
+                <h5>Checkout My Other Projects</h5>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="filter-clicker">
+                <button class="type-2" onclick="myFilter()">Filter</button>
+            </div>
+            <ul id="myfilter" class="filter">
+                <li class="list" data-filter="All">All</li>
+                <li class="list" data-filter="UIUX">UIUX</li>
+                <li class="list" data-filter="Web">Web</li>
+                <li class="list" data-filter="Graphic">Graphic</li>
+                <li class="list" data-filter="Game">Game</li>
+            </ul>
+
+            <div class="filter-content">
+                <div class="projects-img UIUX">
+                    <a href="asset/Homeara.pdf" target="_blank"><img src="img/project_homeara.png"
+                            alt="Homeara homepage" width="100%"></a>
+                </div>
+                <div class="projects-img UIUX">
+                    <a href="" target="_blank"><img src="img/project_wing.png" alt="Wing Bucket" width="100%"></a>
+                </div>
+                <div class="projects-img Web">
+                    <a href="https://asamivii.github.io/urplanet.github.io/" target="_blank"><img
+                            src="img/project_urplanet.png" alt="Ur Planet" width="100%"></a>
+                </div>
+                <div class="projects-img Graphic">
+                    <a href="" target="_blank"><img src="img/project_posters.png" alt="Graphic" width="100%"></a>
+                </div>
+                <div class="projects-img UIUX">
+                    <a href="asset/VOYGR_adilSami.jpg" target="_blank"><img src="img/project_voy.png"
+                            alt="Voyagr App Design" width="100%"></a>
+                </div>
+                <div class="projects-img UIUX">
+                    <a href="asset/bondX_adilSami.jpg" target="_blank"><img src="img/project_bondx.png"
+                            alt="BondX APp Design" width="100%"></a>
+                </div>
+                <div class="projects-img UIUX">
+                    <a href="" target="_blank"><img src="img/project_deli.png" alt="Deli Potential App Design"
+                            width="100%"></a>
+                </div>
+                <div class="projects-img Web">
+                    <a href="http://ctec4321.axs9858.uta.cloud/term_project/" target="_blank"><img
+                            src="img/project_tc.png" alt="TC Web Dev" width="100%"></a>
+                </div>
+                <div class="projects-img Web">
+                    <a href="http://ctec4350.irk9623.uta.cloud/UnProtectedVictims/" target="_blank"><img
+                            src="img/project_unprotected.png" alt="Unprotected Victims" width="100%"></a>
+                </div>
+                <div class="projects-img Game">
+                    <a href="https://asamivii.github.io/Snake/" target="_blank"><img src="img/project_snake.png"
+                            alt="Snake Game" width="100%"></a>
+                </div>
+            </div>
+
+            <h2>Logos</h2>
+            <div class="logos">
+                <div class="logos-logo">
+                    <img src="img/logo1.png" alt="" width="100%">
+                </div>
+                <div class="logos-logo">
+                    <img src="img/logo2.png" alt="" width="100%">
+                </div>
+                <div class="logos-logo">
+                    <img src="img/logo3.png" alt="" width="100%">
+                </div>
+                <div class="logos-logo">
+                    <img src="img/logo4.png" alt="" width="100%">
+                </div>
+                <div class="logos-logo">
+                    <img src="img/logo5.png" alt="" width="100%">
+                </div>
+                <div class="logos-logo">
+                    <img src="img/logo6.png" alt="" width="100%">
+                </div>
+                <div class="logos-logo">
+                    <img src="img/logo7.png" alt="" width="100%">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="n_contact" class="contact">
+        <div class="container form-form">
+            <div class="form-text">
+                <h5>Lets Get in Touch</h5><br>
+                <p>Lets not say our goodbyes yet, Don't forget to please leave me a message that way we can keep in
+                    touch. If you don't hear from me, just know I'm probably thinking about my next adventure. But I
+                    will get back to you as soon as possible.</p>
+            </div>
+            <div class="form">
+                <!-- form -->
+                <input type="name" id="name" placeholder="Name" required><br><br>
+                <input type="email" id="email" placeholder="E-mail address" required><br><br>
+                <textarea name="" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                <br><br>
+                <button class="type-1" type="submit" value="Submit" onclick="sendMail()">Submit</button>
+            </div>
+        </div>
+    </section>
+    <!-- map -->
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d214586.90393107315!2d-96.87197966852334!3d32.820874700207725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647678f!2sDallas%2C%20TX!5e0!3m2!1sen!2sus!4v1634857158089!5m2!1sen!2sus"
+        width="100%" height="450px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <!-- GSAP cdn w/ ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+    <!-- jQuery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- my js -->
+    <script src="js/app.js"></script>
+</body>
+<footer>
+    <div class="container">
+        <div class="footer-section">
+            <div class="footer-footer">
+                <a href="index.html"><img src="asset/whitelogo.png" alt="footer logo" class="footer-logo"></a>
+                <ul class="footer-navlinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#n_about">About</a></li>
+                    <li><a href="#n_project">Projects</a></li>
+                    <li><a href="#n_contact">Contact</a></li>
+                </ul>
+                <ul class="footer-otherlinks">
+                    <li><a href="https://www.behance.net/adil_asami">Behance Projects</a></li>
+                    <li><a href="asset/adilSami_resume.pdf" target="_blank">Resume</a></li>
+                </ul>
+            </div>
+            <hr>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/adil-sami-b82432184/" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Asamivii" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/adil.asami/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>
