@@ -48,7 +48,24 @@ $(document).ready(function(){
 })
 
 // email with js
+function sendMail() {
+  sender_name = document.getElementById("name").value
+  var tempParams = {
+    subject: "[Portfolio] New message from " + sender_name,
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    message: document.getElementById("message").value
+  };
 
+  emailjs.send('gmail','template_eh81wla', tempParams)
+  .then(function(response) {
+    console.log('Success!', response.status, response.text);
+    alert("Message sent");
+  }, function(error) {
+    console.log('Failed!', error);
+    alert("Message failed to send");
+  });
+}
 
 // toggle filter catagory
 function myFilter() {
