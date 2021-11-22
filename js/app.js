@@ -61,9 +61,7 @@ function sendMail() {
   .then(function(response) {
     console.log('Success!', response.status, response.text);
     alert("Message sent");
-  }, function(error) {
-    console.log('Failed!', error);
-    alert("Message failed to send");
+    window.location.reload(3);
   });
 }
 
