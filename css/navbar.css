@@ -38,6 +38,37 @@ nav ul li a:hover {
     transition: all 1s ease-in;
     z-index: 5;
 }
+/* END */
+
+/* Sub page navbar */
+.navbar-deli {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    position: fixed;
+    width: 100%;
+    background-color: #FAD05A;
+}
+.navbar-fit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    position: fixed;
+    width: 100%;
+    background-color: #F20000;
+}
+.navbar-next {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    position: fixed;
+    width: 100%;
+    background-color: #00E8F6;
+}
+/* END */
 
 .overlay {
     height: 0;
