@@ -378,7 +378,7 @@ textarea {
 /* subpage style */
 .cover { 
     /* shared */
-    padding-top: 6.7%;
+    padding-top: 6.5%;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
