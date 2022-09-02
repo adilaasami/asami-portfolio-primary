@@ -49,6 +49,7 @@ nav ul li a:hover {
     position: fixed;
     width: 100%;
     background-color: #FAD05A;
+    z-index: 5;
 }
 .navbar-fit {
     display: flex;
@@ -58,6 +59,7 @@ nav ul li a:hover {
     position: fixed;
     width: 100%;
     background-color: #F20000;
+    z-index: 5;
 }
 .navbar-next {
     display: flex;
@@ -67,6 +69,17 @@ nav ul li a:hover {
     position: fixed;
     width: 100%;
     background-color: #00E8F6;
+    z-index: 5;
+}
+.navbar-default {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    position: fixed;
+    width: 100%;
+    background-color: #050400;
+    z-index: 5;
 }
 /* END */
 
