@@ -1,0 +1,864 @@
+/* 
+Title: Portfolio stylesheet file for all page stles and layout designs.
+Author: Adil Sami
+Date created: 01/01/2021
+Last update: 03/10/2025
+
+Purpose: Keep a consistent and organized design layout throughout the webpages.
+
+Author notes: None
+*/
+
+@import url(navbar.css);
+@import url(footer.css);
+
+/* universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    margin: 0;
+    max-width: 100%;
+    padding: 0 10%;
+}
+/* end */
+
+/* shared */
+h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+h2 {
+    font-size: 2rem;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 33px;
+    letter-spacing: 0.1em;
+    padding-bottom: 15px;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+}
+
+h5 {
+    font-size: 4.5rem;
+    line-height: 98px;
+    font-weight: 700;
+}
+
+p, li {
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.875rem;
+    line-height: 20px;
+    font-weight: 400;
+    padding-bottom: 10px; 
+}
+
+ul, ol {
+    padding: 0 0 0 1em;
+}
+
+ul li {
+    padding: 0.5em 0;
+}
+
+.btn {
+    background: #050400;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-hero-btn {
+    background: #fff;
+    color: #242424;
+    width: 102px;
+    height: 46px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #B08953;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.social {
+    padding-top: 3.125em;
+}
+
+.social i {
+    color: #fff;
+    width: 50px;
+    font-size: 1.7rem;
+}
+
+.social i:hover {
+    color: #4E5FFF;
+    transition: 0.5s;
+}
+
+.tabs {
+    font-size: 1.1rem !important;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    color: #008DDD;
+}
+
+a:hover {
+    color: #B08953;
+}
+/* end */
+
+
+/* hero */
+.hero {
+    background: #050400;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.hero .container .hero-text .hero-data h1 {
+    font-weight: 700;
+    font-size: 2.25rem;
+    padding-bottom: 0 !important;
+    color: #fff;
+    
+}
+
+.hero .container .hero-text .hero-data p {
+    color: #fff;
+    padding-top: 1.563em;
+    margin-right: 20%;   
+}
+
+.hero .container .hero-text .hero-data #textArray {
+    font-weight: 700;
+    font-size: 3rem;
+    color: #4E5FFF;
+    padding-top: 0.938em;
+}
+
+.hero .container .hero-text .hero-data .btn-hero {
+    padding-top: 3.125em;
+}
+/* end */
+
+/* about */
+.about {
+    margin: 15% 0;
+}
+
+.about-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: center;
+    
+}
+
+.about .container .about-item h4 {
+    padding-top: 30px;
+}
+
+.about .container .about-item p {
+    padding-top: 20px;
+}
+
+/* skill */
+.about .container .skill-items {
+    margin: 15% 0;
+}
+
+.about .container .skill-items .skill-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+}
+
+.about .container .skill-items .skill-items-wrapper .skill-item {
+    background-color: #ffff;
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
+    padding: 3em;
+}
+
+/* work experience */
+.about .container .work-experiences {
+    margin: 15% 0;
+}
+
+.about .container .work-experiences .work-experiences-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2.5rem;
+}
+
+.about .container .work-experiences .work-experiences-wrapper .work-experience-item {
+    background-color: #ffff;
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
+    padding: 3em;
+}
+
+.about .container .work-experiences .work-experiences-wrapper .work-experience-item .company-logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* knowledge */
+.about .knowledge {
+    background-color: #050400;
+}
+
+.about .knowledge .knowledge-cards-wrapper {
+    padding: 10% 0;
+    --auto-grid-min-size: 15rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    grid-gap: 5rem;
+}
+
+.about .knowledge .knowledge-cards-wrapper .knowledge-card {
+    background-color: #fff;
+    padding: 15% 10% 15% 10%;
+    max-width: 100%;
+}
+
+.about .knowledge .knowledge-cards-wrapper .knowledge-card h4 {
+    letter-spacing: 0;
+    padding-bottom: 2rem;
+}
+
+.about .knowledge .knowledge-cards-wrapper .knowledge-card:hover {
+    background-color: transparent;
+    border: 3px solid #fff;
+    color: #fff;
+    transition: 0.5s;
+}
+/* end */
+
+/* projects */
+.project {
+    margin: 15% 0;
+}
+
+.project .container .project-wrapper .project-tab {
+    margin-bottom: 7%;
+}
+
+.project .container .project-wrapper .project-tab {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    list-style-type: none;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0;
+}
+
+.project .container .project-wrapper .project-tab li {
+    padding-right: 50px;
+}
+
+.project .container .project-wrapper .project-tab li:after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #4E5FFF;
+    display: block;
+    margin: auto;
+    transition: 0.5s ease-in-out;
+}
+
+.project .container .project-wrapper .project-tab li:hover::after {
+     width: 100%;
+}
+
+.project .container .project-wrapper .project-details {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.project .container .project-wrapper .project-details .project-image {
+    min-width: 500px;
+    width: min-content; /* solution to image size restructure at larger screens */
+    height: auto;
+    overflow: hidden;
+}
+
+.project .container .project-wrapper .project-details .project-content ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.5rem 0;
+    padding: 0;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.project .container .project-wrapper .project-details .project-content ul li {
+    padding-right: 50px;
+}
+
+.project .container .project-wrapper .project-details .project-content h3 {
+    padding: 0;
+}
+
+.project .container .project-wrapper .project-details .project-content p {
+    padding: 1rem 0;
+}
+
+.project .container .project-wrapper .project-details .project-tab-disclaimer {
+    width: 100%;
+    background-color: #050400;
+    padding: 7rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.project .container .project-wrapper .project-details .project-tab-disclaimer i {
+    color: #fff;
+    font-size: 2rem;
+    padding-right: 15px;
+}
+
+.project .container .project-wrapper .project-details .project-tab-disclaimer p {
+    padding: 0;
+}
+
+/* end */
+
+/* break */
+.project .divider {
+    background-color: #050400;
+    margin: 15% 0;
+    
+}
+
+.project .divider .middle-text {
+    color: #fff;
+    padding: 15% 10% 15% 10%;
+    max-width: 100%;
+}
+/* end */
+
+/* other project filter and project images */
+.project .container .filter {
+    justify-content: right;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.project .container  .filter li {
+    padding-left: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.project .container .filter li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #4E5FFF;
+    display: block;
+    margin: auto;
+    transition: 0.5s ease-in-out;
+}
+
+.project .container .filter li:hover::after {
+    width: 100%;
+}
+
+.project .container .filter-clicker {
+    display: none;
+    justify-content: right;
+    padding-bottom: 50px;
+}
+
+.project .container .filter-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+/* end */
+
+/* contact */
+.contact {
+    background-color: #050400;
+    color: #050400;
+    padding: 100px 10%;
+}
+
+.contact .contact-wrapper {
+    background-color: #fff;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact .contact-wrapper span {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.contact .contact-wrapper p {
+    padding: 15px 0 25px;
+}
+
+.contact .contact-wrapper #mascot {
+    max-width: 400px;
+    height: auto;
+}
+/* end */
+
+/* project template */
+.project-template-main-margin { /* shared */
+    margin: 15% 0;
+}
+
+.project-template-sub-margin { /* shared */
+    margin: 5% 0;
+}
+
+.project-template-image-385 {
+    min-width: 385px;
+    height: auto;
+    overflow: hidden;
+}
+
+.project-template-hero {
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    height: 75vh;
+    background-color: #C4C4C4 !important;
+}
+
+.project-template-introduction .container .project-template-about {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    background-color: #fff;
+    padding: 4rem;
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));;
+}
+
+.project-template-introduction .container .project-template-about .project-template-logo {
+    min-width: 200px;
+    width: min-content;
+    height: auto;
+    overflow: hidden;
+}
+
+.project-template-keyinfo-wrapper { /* shared */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.project-template-introduction .container .project-template-keydata {
+    background-color: #050400;
+    padding: 4rem;
+    color:  #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.project-template-user-research-overview {
+    background-color: #050400;
+    padding: 4rem;
+    color:  #fff;
+}
+
+.container .project-template-data-content { /* shared */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+}
+
+.container .project-template-data-content div .project-data-content-images { /* shared */
+    min-width: 588px;
+    height: auto;
+    overflow: hidden;
+}
+
+.project-template-data-1 .container .project-template-persona .project-template-persona-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+}
+
+.project-template-data-1 .container .project-template-persona .project-template-persona-cards .project-template-persona-card div {
+    min-width: 588px;
+    height: auto;
+    overflow: hidden;
+}
+
+.project-template-designs { /* shared */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.project-template-data-4 .container .project-template-documentations {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.project-template-data-4 .container .project-template-documentations .project-template-documentations-card {
+    background-color: #fff;
+    padding: 4rem;
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));;
+}
+
+.project-template-data-5 .container .project-template-mockups .project-template-video {
+    margin-top: 5%;
+}
+
+.project-template-data-6 .project-template-accssibility {
+    background-color: #050400;
+    padding: 4rem;
+    /* text-align: center; */
+    color: #fff;
+    margin-bottom: 5%;
+}
+
+.project-template-data-6 .project-template-accssibility h2 {
+    text-align: center;
+    padding: 0;
+}
+
+.project-template-project-final-content-cards { /* shared */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.project-template-project-final-content-cards .project-template-final-content-card { /* shared */
+    background-color: #050400;
+    color: white;
+    padding: 5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.project-template-project-final-content-cards .project-template-final-content-card div { /* shared */
+    background-color: #fff;
+    color: #050400;
+    padding: 2rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-template-data-6 .container .project-template-lesson {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.project-template-data-6 .container .project-template-thank-you {
+    text-align: center;
+    padding: 0 25%;
+}
+/* end */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* responsiveness */
+
+/* xs phone */
+@media (max-width: 350px) {
+    .hero-text p {
+        display: none;
+    }
+
+    .container .project-template-data-content div .project-data-content-images {
+        min-width: 193px !important;
+    }
+
+    .project-template-data-1 .container .project-template-persona .project-template-persona-cards .project-template-persona-card div {
+        min-width: 193px !important;
+    }
+}
+
+/* m phone */
+@media (max-width: 420px) {
+    .hero-text h1 {
+        font-size: 1.45rem;
+    }
+
+    #textArray {
+        font-size: 1.9rem;
+    }
+
+    .project-template-data-6 .project-template-accssibility {
+        padding: 0.5rem;
+    }
+}
+
+/* phone */
+@media (max-width: 560px) {
+    .about .knowledge .container .knowledge-cards-wrapper .knowledge-card {
+        text-align: center;
+    }
+
+    .project .container .filter-content {
+        grid-template-columns: 1fr !important;
+        gap: 15px;
+    }
+
+    .project .container .project-wrapper .project-details .project-tab-disclaimer {
+        display: block;
+        padding: 3rem;
+
+    }
+
+    .project .container .project-wrapper .project-details .project-tab-disclaimer i {
+        padding: 0 0 15px 0;
+    }
+
+    /* project template */
+    .project-template-keyinfo-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-template-designs {
+        display: flex;
+        flex-direction: column;
+    }
+    /* end */
+}
+
+/* tablet */
+@media (max-width: 768px) {
+    .project .divider .middle-text h5 {
+        font-size: 2rem;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    /* project template */
+    .project-template-introduction .container .project-template-about {
+        flex-direction: column;
+    }
+
+    .project-template-introduction .container .project-template-about .project-template-logo {
+        width: 100%;
+    }
+
+    .project-template-data-4 .container .project-template-documentations {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .project-template-project-final-content-cards {
+        display: flex;
+        flex-direction: column;
+    }
+    /* end */
+}
+
+/* laptops or large tablet */
+@media (max-width: 1040px) {
+    .hero-text {
+        display: block;
+        top: 30%;
+    }
+
+    .about .container .about-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about .container .about-item .about-text {
+        padding-top: 10%;
+    }
+
+    .about .container .skill-items .skill-items-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .about .container .work-experiences .work-experiences-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project .container .filter {
+        display: none;
+    }
+
+    .project .container .true-filter {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        row-gap: 1rem;
+        background: #fff;
+        filter: drop-shadow(3px 7px 15px rgba(0, 0, 0, 0.25));
+        padding: 15px;
+        /* transition: all 0.5s ease; */
+    }
+
+    .project .container .filter-clicker {
+        display: flex;
+    }
+
+    .project .container .filter-content {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .contact .contact-wrapper {
+        flex-direction: column;
+    }
+
+    /* project template */
+    .project-template-introduction .container .project-template-keydata {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-template-data-4 .container .project-template-documentations {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .project-template-project-final-content-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .container .project-template-data-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project .container .project-wrapper .project-details .project-image {
+        width: 100%;
+    }
+
+    .project-template-data-1 .container .project-template-persona .project-template-persona-cards {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .project-template-data-1 .container .project-template-persona .project-template-persona-cards .project-template-persona-card div {
+        width: 100%;
+    }
+
+    .project-template-designs {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .project-template-data-6 .container .project-template-lesson {
+        display: flex;
+        flex-direction: column;
+    }
+    /* end */
+}
+
+
+/* desktop and larger screen */
+@media (max-width: 1140px) {
+    .project .container .project-wrapper .project-details {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .project .container .project-wrapper .project-details .project-image {
+        min-width: 200px !important;
+        width: 100%;
+    }
+
+    /* project template */
+    .project-template-keyinfo-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .project-template-keyinfo-wrapper div:nth-child(3) {
+        grid-column: span 2;
+    }
+    /* end */
+}
+
+/* l desktop */
+@media (max-width: 1500px) {
+    /* project template */
+    .container .project-template-data-content div .project-data-content-images {
+        min-width: 294px;
+    }
+
+    .project-template-data-1 .container .project-template-persona .project-template-persona-cards .project-template-persona-card div {
+        min-width: 294px;
+    }
+
+    .project-template-image-385 {
+        min-width: 193px;
+    }
+    /* end */
+}
+
+/* xl desktop */
+@media (max-width: 1600px) {
+    .about .container .work-experiences .work-experiences-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .about .container .work-experiences .work-experiences-wrapper .work-experience-item:nth-child(3) {
+        grid-column: span 2;
+    }
+
+    /* project template */
+    /* end */
+}
+
+/* end */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */

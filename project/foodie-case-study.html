@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Adil Sami | Foodie Application UX Case Study</title>
+        <!-- stylesheets -->
+        <link rel="stylesheet" type="text/css" href="../style/site-style.css">
+        <!-- favicon -->
+        <link rel="shortcut icon" href="../assets/logo/logo-solo-white.svg" type="image/png">
+        <!-- fontawesome -->
+        <script src="https://kit.fontawesome.com/1d287cacfb.js" crossorigin="anonymous"></script>
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <header>
+        <nav>
+            <div id="navbar" class="navbar">
+                <!--Used for bg of navbar-->
+                <a href="../index.html"><img src="../assets/logo/logo-white.svg" alt="logo" class="logo"></a>
+
+                <span id="burgerbtn" class="burger" onclick="openNav()"><i class="fas fa-bars"></i></span>
+            </div>
+
+            <div id="myNav" class="overlay">
+                <!--Used for bg of navlinks-->
+                <span id="closebtn" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></span>
+                <ul class="navlinks">
+                    <li><a href="../index.html" onclick="closeNav()">Home</a></li>
+                    <li><a href="../index.html#to-about" onclick="closeNav()">About</a></li>
+                    <li><a href="../index.html#to-project" onclick="closeNav()">Projects</a></li>
+                    <li><a href="../index.html#to-contact" onclick="closeNav()">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <body>
+
+        <div id="to-hero" class="project-template-hero" style="background: url(../images/foodie/foodie-banner.png);"></div>
+        
+        <section class="project-template-introduction project-template-main-margin">
+            <div class="container">
+                <div class="project-template-about">
+                    <div class="project-template-logo">
+                        <img src="../images/foodie/foodie-logo.png" alt="Foodie Mobile Application Logo">
+                    </div>
+                    <div class="project-template-project-content">
+                        <h1>Product Overview</h1>
+                        <p>A menu and payment mobile app for restaurants enhances food discovery, selection, and checkout with an intuitive layout, smart search, and categorized menus. It offers quick add-to-cart, easy customization, and multiple secure payment options for a seamless ordering experience. With real-time order tracking, saved payment methods, and personalized recommendations, users can navigate menus effortlessly and complete purchases in just a few taps.</p><br />
+                        <p><strong>My Role:</strong> User Experience Research, Visual & Interaction Designer</p>
+                        <p><strong>Responsibilities:</strong> User Research, Wireframing, Mockup, and Prototyping</p>
+                        <p><strong>Project Duration:</strong> January 2022 - June 2022</p>
+                    </div>
+                </div>
+
+                <div class="project-template-keyinfo project-template-main-margin">
+
+                    <h2>About Details</h2>
+
+                    <div class="project-template-keyinfo-wrapper project-template-sub-margin">
+                        <div>
+                            <h3>The Problem</h3>
+                            <p>Users struggle to find diverse food options due to poor menu organization and inefficient checkout processes that are slow and time-consuming.</p>
+                        </div>
+
+                        <div>
+                            <h3>The Goal</h3>
+                            <p>The goal is to make sure that this app has features that let users choose and find a diverse selection of items. Plus, make the checkout process quick and smooth.</p>
+                            <p><a href="../docs/foodie-goal-statement.pdf" title="Foodie Application Goal Statement PDF (opens in new tab/window)" target="_blank">Project Goal Statement</a></p>
+                        </div>
+                        <div>
+                            <h3>Target Audience</h3>
+                            <p>Participants can be people who make group orders once a week; it can be for social or work related reasons. Remote workers are also welcome.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="project-template-keydata">
+
+                    <div>
+                        <h3>Painpoints and Challenges</h3>
+                        <ol>
+                            <li>From the interviews many users have hard time finding diverse items.</li>
+                            <li>Users hate long checkouts especially when they are asked multiple questions.</li>
+                            <li>Many people get tired of eating the same food all the time.</li>
+                            <li>When users make orders they always have doubts.</li>
+                        </ol>
+                    </div>
+
+                    <div>
+                        <h3>Inital Solutions</h3>
+                        <ol>
+                            <li>I believe that going forward the design need to integrate a theme selector to fix this pain point.</li>
+                            <li>So a efficient way to fix it is to have all the necessary things questions only and keep it in 1 to 2 steps.</li>
+                            <li>The best solution to that would be to integrate a way to ask users what they are feeling and using that to find possible matches.</li>
+                            <li>I want to fix that by informing users about the food before making the order.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="project-template-user-research-overview">
+            <div class="container">
+                <h2>User Research Overview</h2>
+                <p>Going into this research I first started by taking some quick surveys to pinpoint potential users. Afterwards I commenced with the interview and asked series of questions pertaining to their experience when using a food app, then I used those interviews and built two personas and their user journey. At first I was assuming that people are mostly focused on the checkout not being fast enough. But I learned that wasn't the only issue, users had problem being confident in their choice as well as finding food items if they have any particular choice.</p>
+                <p>From there I created wireframes and did some usability testing in a <strong>unmoderated</strong> setting where I could observe the user interact with the app without any outside help. Making it more natural and helps with understanding the user thought pattern when interacting with the product. Afterwards I made adjustments to the design and created the mockup design and prototyped for final testing phases.</p>
+            </div>
+        </div>
+
+        <section class="project-template-data-1 project-template-main-margin">
+            <div class="container">
+                <h2>Competitive Audit</h2>
+                <p>The competitive audit provides a structured analysis of similar applications, evaluating their strengths, weaknesses, and key design patterns to identify opportunities for improvement. The spreadsheet includes a detailed comparison of competitors based on usability, navigation, checkout efficiency, and visual design, highlighting areas where the application can stand out. The report summarizes key insights, identifying gaps in user experience, common industry trends, and potential enhancements to refine the app’s design and functionality.</p>
+
+                <div class="project-template-data-content project-template-sub-margin">
+                    <div>
+                        <h3>Audit Data Spreadsheet</h3>
+                        <div class="project-data-content-images"><img src="../images/shared/spreadsheet-thumbnail.png" alt="Audit Data Spreadsheet"></div>
+                        <ol>
+                            <li><a href="../docs/foodie-competitive-audit-spreadsheet.pdf" title="Audit Data Spreadsheet PDF (opens in new tab/window)" target="_blank">Audit Data Spreadsheet</a></li>
+                        </ol>
+                    </div>
+                    <div>
+                        <h3>Audit Report</h3>
+                        <div class="project-data-content-images"><img src="../images/shared/document-thumbnail.png" alt="Audit Report"></div>
+                        <ol>
+                            <li><a href="../docs/foodie-competitive-audit-report.pdf" title="Audit Report PDF (opens in new tab/window)" target="_blank">Audit Report</a></li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="project-template-persona">
+                    <h3>Persona</h3>
+
+                    <div class="project-template-persona-cards">
+                        <div class="project-template-persona-card">
+                            <div><img src="../images/foodie/foodie-persona-A.png" alt="Persona A"></div>
+                            <ol>
+                                <li><a href="../docs/foodie-user-story-A.pdf" title="User Story A PDF (opens in new tab/window)" target="_blank">User Story A</a></li>
+                                <li><a href="../docs/foodie-problem-statement-A.pdf" title="User Problem Statement A PDF (opens in new tab/window)" target="_blank">User Problem Statement A</a></li>
+                                <li><a href="../docs/foodie-user-journey-map-A.pdf" title="User Journey Map A PDF (opens in new tab/window)" title="_blank">User Journey Map A</a></li>
+                            </ol>
+                        </div>
+                        <div class="project-template-persona-card">
+                            <div><img src="../images/foodie/foodie-persona-B.png" alt="Persona B"></div>
+                            <ol>
+                                <li><a href="../docs/foodie-user-story-B.pdf" title="User Story B PDF (opens in new tab/window)" target="_blank">User Story B</a></li>
+                                <li><a href="../docs/foodie-problem-statement-B.pdf" title="User Problem Statement B PDF (opens in new tab/window)" target="_blank">User Problem Statement B</a></li>
+                                <li><a href="../docs/foodie-user-journey-map-B.pdf" title="User Journey Map B PDF (opens in new tab/window)" target="_blank">User Journey Map B</a></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-template-data-2 project-template-main-margin">
+            <div class="container">
+                <h2>Application</h2>
+                <p>The application creation process begins with Information Architecture (Sitemap) to establish a structured hierarchy of content and navigation. This ensures a logical flow and intuitive user experience. Next, a User Flow is designed, mapping out how users will interact with the application to achieve their goals efficiently. Once the flow is clear, Paper Wireframes are sketched to quickly explore layout ideas and refine key screens before committing to digital design. After iterating on these rough drafts, the project moves into Digital Wireframing, where low-fidelity wireframes where created using Figma. These initial digital wireframes establish the foundation for visual design, prototyping, and usability research.</p>
+
+                <div class="project-template-data-content project-template-sub-margin">
+                    <div>
+                        <h3>Information Architecture</h3>
+                        <div class="project-data-content-images"><img src="../images/foodie/foodie-sitemap.png" alt="Information Architecture"></div>
+                        <ol>
+                            <li><a href="../docs/foodie-site-map.pdf" title="Information Architecture PDF (opens in new tab/window)" target="_blank">Information Architecture</a></li>
+                        </ol>
+                    </div>
+                    <div>
+                        <h3>User-Flow</h3>
+                        <div class="project-data-content-images"><img src="../images/foodie/foodie-user-flow.png" alt="User-Flow"></div>
+                        <ol>
+                            <li><a href="../docs/foodie-user-flow.pdf" title="User-Flow PDF (opens in new tab/window)" target="_blank">User-Flow</a></li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="project-template-paper-wireframes">
+                    <h3>Paper Wireframe</h3>
+
+                    <div class="project-template-designs">
+                        <div class="project-template-image-385"><img src="../images/foodie/foodie-wireframe-part-1.png" alt="Paper Wireframe"></div>
+                        <div class="project-template-image-385"><img src="../images/foodie/foodie-wireframe-part-2.png" alt="Paper Wireframe"></div>
+                        <div class="project-template-image-385"><img src="../images/foodie/foodie-wireframe-part-3.png" alt="Paper Wireframe"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-template-data-3">
+            <div class="container">
+                <h2>Wireframe and Prototype</h2>
+                <p>The Digital Wireframe & Prototype phase involved transforming initial sketches into structured wireframes using Figma/Adobe XD, focusing on usability and layout. These wireframes were then developed into an interactive prototype, allowing for seamless navigation and functionality testing. This prototype provides a realistic user experience, enabling feedback collection and refinement before moving to high-fidelity design and development, explore the prototype by clicking on the link below.</p>
+                <p><a href="https://www.figma.com/proto/Z6qbb2ZospFRW8L2L7sdTz/Google-UX-Design-Pro-Certification-Project-1?node-id=0-1&p=f&viewport=393%2C105%2C0.17&t=TkWfT9UhAF4Pc3ju-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3%3A95&show-proto-sidebar=1" title="Link to wireframed prototype (opens in a new tab/window)" target="_blank">Link to Wireframed Prototype</a></p>
+            </div>
+        </section>
+
+        <section class="project-template-data-4 project-template-main-margin">
+            <div class="container">
+                <h2>UX Research</h2>
+                <p>For the UX Research phase, I developed a structured UX Research Study Plan to conduct an unmoderated usability study with 5-7 participants, capturing interaction data with the wireframed prototype. This research aimed to identify usability challenges and refine the user experience. After collecting the data, I created a Usability Study Report, utilizing Generative AI to analyze user feedback and uncover key patterns. I then organized user inputs into an Affinity Diagram, followed by Insight Identification, Pattern Recognition, and Prioritized Insights to pinpoint critical usability issues. Based on these findings, I implemented design updates to address user pain points, ensuring a more intuitive and seamless experience in the next iteration of the prototype.</p>
+
+                <div class="project-template-documentations project-template-sub-margin">
+                    <div class="project-template-documentations-card">
+                        <h3>Study</h3>
+                        <ol>
+                            <li><a href="../docs/foodie-ux-research-study-plan.pdf" title="UX Research Study Plan PDF (opens in new tab/window)" target="_blank">UX Research Study Plan</a></li>
+                            <li><a href="../docs/foodie-usability-study-result.pdf" title="Usability Study Result PDF (opens in new tab/window)" target="_blank">Usability Study Result</a></li>
+                            <li><a href="#" title="Generative AI Report PDF (opens in a new tab/window)" target="_blank">Generative AI Report</a></li> <!-- need to create one based on other report -->
+                        </ol>
+                    </div>
+                    <div class="project-template-documentations-card">
+                        <h3>Diagram</h3>
+                        <ol>
+                            <li><a href="../docs/foodie-affinity-diagram.pdf" title="Affinity Diagram PDF (opens in a new tab/window)" target="_blank">Affinity Diagram</a></li>
+                        </ol>
+                    </div>
+                    <div class="project-template-documentations-card">
+                        <h3>Information Insights</h3>
+                        <ol>
+                            <li><a href="../docs/foodie-insight-identification.pdf" title="Insight Identification PDF (opens in a new tab/window)" target="_blank">Insight Identification</a></li>
+                            <li><a href="../docs/foodie-pattern-identification.pdf" title="Pattern Identification PDF (opens in a new tab/window)" target="_blank">Pattern Identification</a></li>
+                            <li><a href="../docs/foodie-prioritized-insights.pdf" title="Prioritized Insights PDF (opens in a new tab/window)" target="_blank">Prioritized Insights</a></li>
+                            <li><a href="../docs/foodie-detail-insight-findings.pdf" title="Detailed Insight Findings PDF (opens in a new tab/window)" target="_blank">Detailed Insight Findings</a></li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="project-template-keyinfo-wrapper project-template-sub-margin">
+                    <div>
+                        <h3>Round 1 & 2 of Findings</h3>
+                        <ol>
+                            <li>Users confused when asked to remove items from cart.</li>
+                            <li>More guidelines and options on the map feature would be helpful.</li>
+                            <li>More visual elements to help improve usability.</li>
+                        </ol>
+                    </div>
+
+                    <div>
+                        <h3>Improvements Made</h3>
+                        <ol>
+                            <li>Added more visual cues to the cart design so users are able to identify where and what they want.</li>
+                            <li>Incorporated more guidelines and feature to help users easily locate their nearest restaurant in the area, like filters.</li>
+                            <li>Used various icons and imagery to help improve usability.</li>
+                        </ol>
+                    </div>
+                    <div>
+                        <h3>Post Updates to Design Findings</h3>
+                        <p><a href="../docs/foodie-post-updates-designs.pdf" title="Post Updates to Design Findings Presentation PDF (opens in new tab/window)" target="_blank">Post Updates to Design Findings Presentation</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-template-data-5">
+            <div class="container">
+                <h2>Mockup and Prototype</h2>
+                <p>After analyzing the usability study results, I refined the design by implementing key improvements to address user pain points. These updates were integrated into high-fidelity mockups, enhancing visual hierarchy, accessibility, and overall usability. With the revised mockups in place, I developed an interactive prototype, incorporating the updated design elements and improved user flows. This version provides a more seamless and intuitive experience, ensuring a more user-centered final product, explore the new mockup designs using the link provided below.</p>
+                <p><a href="https://www.figma.com/proto/Z6qbb2ZospFRW8L2L7sdTz/Google-UX-Design-Pro-Certification-Project-1?node-id=250-566&p=f&viewport=1331%2C652%2C0.2&t=TkWfT9UhAF4Pc3ju-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=250%3A567&show-proto-sidebar=1" title="Link to mockup prototype (opens in a new tab/window)" target="_blank">Link to Mockup Prototype</a></p>
+                <p><a href="/docs/foodie-sticker-sheet.pdf" title="Design Sticker Sheet PDF (opens in a new tab/window)" target="_blank">Design Sticker Sheet</a></p>
+
+                <div class="project-template-mockups project-template-sub-margin">
+                    <div class="project-template-designs">
+                        <div class="project-template-image-385"><img src="../images/foodie/foodie-mockup-1.png" alt="Foodie Mobile Mockup Design"></div>
+                        <div class="project-template-image-385"><img src="../images/foodie/foodie-mockup-2.png" alt="Foodie Mobile Mockup Design"></div>
+                        <div class="project-template-image-385"><img src="../images/foodie/foodie-mockup-3.png" alt="Foodie Mobile Mockup Design"></div>
+                        <div class="project-template-image-385"><img src="../images/foodie/foodie-mockup-4.png" alt="Foodie Mobile Mockup Design"></div>
+                        <div class="project-template-image-385"><img src="../images/foodie/foodie-mockup-5.png" alt="Foodie Mobile Mockup Design"></div>
+                        <div class="project-template-image-385"><img src="../images/foodie/foodie-mockup-6.png" alt="Foodie Mobile Mockup Design"></div>
+                        <div class="project-template-image-385"><img src="../images/foodie/foodie-mockup-7.png" alt="Foodie Mobile Mockup Design"></div>
+                        <div class="project-template-image-385"><img src="../images/foodie/foodie-mockup-8.png" alt="Foodie Mobile Mockup Design"></div>
+                        <div class="project-template-image-385"><img src="../images/foodie/foodie-mockup-9.png" alt="Foodie Mobile Mockup Design"></div>
+                        <div class="project-template-image-385"><img src="../images/foodie/foodie-mockup-10.png" alt="Foodie Mobile Mockup Design"></div>
+                        <div class="project-template-image-385"><img src="../images/foodie/foodie-mockup-11.png" alt="Foodie Mobile Mockup Design"></div>
+                        <div class="project-template-image-385"><img src="../images/foodie/foodie-mockup-12.png" alt="Foodie Mobile Mockup Design"></div>
+                        <div class="project-template-image-385"><img src="../images/foodie/foodie-mockup-13.png" alt="Foodie Mobile Mockup Design"></div>
+                        <div class="project-template-image-385"><img src="../images/foodie/foodie-mockup-14.png" alt="Foodie Mobile Mockup Design"></div>
+                        <div class="project-template-image-385"><img src="../images/foodie/foodie-mockup-15.png" alt="Foodie Mobile Mockup Design"></div>
+                    </div>
+                    <!-- insert video here -->
+                    <video width="100%" controls="" muted="" autoplay loop class="project-template-video">
+                        <source src="../assets/foodie-mockup-prototype.mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-template-data-6 project-template-main-margin">
+            <div class="project-template-accssibility">
+                <h2>Accessibility Considerations</h2>
+            </div>
+
+            <div class="container">
+                <div class="project-template-accessibility-consideration-cards project-template-project-final-content-cards">
+                    <div class="project-template-accessibility-consideration-card project-template-final-content-card">
+                        <div><span><strong>1</strong></span></div>
+                        <p>I made sure to include enough icons in my design so users understand what they are clicking.</p>
+                    </div>
+                    <div class="project-template-accessibility-consideration-card project-template-final-content-card">
+                        <div><span><strong>2</strong></span></div>
+                        <p>I also made sure to use great color contrast for users with poor visibility to easily navigate and use.</p>
+                    </div>
+                    <div class="project-template-accessibility-consideration-card project-template-final-content-card">
+                        <div><span><strong>3</strong></span></div>
+                        <p>Added some accessibility consideration I made sure to include in the design are dark mode, translations and text-reader functionality that will make using the app easier and memorable.</p>
+                    </div>
+                </div>
+
+                <div class="project-template-lesson project-template-sub-margin">
+                    <div>
+                        <h3>Impact</h3>
+                        <p>The app really makes the whole food ordering process easy and informative.</p>
+                        <p>Quote from peer feedback:</p>
+                        <em>“Simple design with elegant use of font and colors”.</em>
+                    </div>
+
+                    <div>
+                        <h3>Learning Outcome</h3>
+                        <p>I learned to deeply research key users and analyze how they interact with my design. Using Generative AI, I processed usability data to uncover patterns and refine my approach. Through multiple design iterations and layout adjustments, I improved usability and created a more intuitive experience. Through this process, I gained valuable insights, and the final high-fidelity mockups and interactive prototype now reflect the improvements I made, ensuring a more user-friendly and intuitive experience. This case study taught me the importance of continuous iteration and user feedback in creating effective designs.</p>
+                    </div>
+                </div>
+
+                <h3>Next Steps</h3>
+
+                <div class="project-template-next-steps-cards project-template-project-final-content-cards">
+                    <div class="project-template-next-steps-card project-template-final-content-card">
+                        <div><span><strong>1</strong></span></div>
+                        <p>I would love to use my current prototype to do some more user testing and further improve the design.</p>
+                    </div>
+                    <div class="project-template-next-steps-card project-template-final-content-card">
+                        <div><span><strong>2</strong></span></div>
+                        <p>Afterwards I would love to start developing the prototype into an actual usable app.</p>
+                    </div>
+                    <div class="project-template-next-steps-card project-template-final-content-card">
+                        <div><span><strong>3</strong></span></div>
+                        <p>My final thing would be to collect user data on the app usage and learn about how users interact with the app.</p>
+                    </div>
+                </div>
+
+                <div class="project-template-thank-you project-template-main-margin">
+                    <h2>Thank You</h2>
+                    <p>Thank you so much for reviewing my work for the Foodie app! If you like to to see more or get in touch my contact info is down below. To see the slider version of the case study please click the link <a href="/docs/foodie-case-study.pdf" title="Foodie Application Case Study Slides PDF (opens in new tab/window)" target="_blank">here</a>.</p>
+                    <p>Email: <a href="mailto:adisiddque6@gmail.com" title="Send mail to Adil Sami">adisiddque6@gmail.com</a></p>
+                    <p>Website: <a href="../index.html" title="Go to Adil Sami Portfolio Homepage">adilasami.com</a></p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- jQuery cdn -->
+        <script src="https://code.jquery.com/jquery-3.6.0.js"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <!-- my js -->
+        <script src="../script/app.js"></script>
+        
+    </body>
+
+    <footer>
+
+        <div class="container">
+            <div class="footer-section">
+                <div class="footer-footer">
+                    <a href="../index.html"><img src="../assets/logo/logo-white.svg" alt="footer logo" class="footer-logo"></a>
+                    <ul class="footer-navlinks">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../index.html#to-about">About</a></li>
+                        <li><a href="../index.html#to-project">Projects</a></li>
+                        <li><a href="../index.html#to-contact">Contact</a></li>
+                    </ul>
+                    <ul class="footer-otherlinks">
+                        <li><a href="https://www.behance.net/adil_asami">Behance</a></li>
+                        <li><a href="../assets/adilsami-resume.pdf" target="_blank">Resume</a></li>
+                    </ul>
+                    <ul class="footer-backtotop">
+                        <li><a href="#to-hero">Back to top <span>&#8628;</span></a></li>
+                    </ul>
+                </div>
+                <p>© 2025 Adil Sami. All Rights Reserved.</p><br />
+                <hr>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/adil-sami-b82432184/" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/adilaasami" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/adil.asami/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+
+</html>

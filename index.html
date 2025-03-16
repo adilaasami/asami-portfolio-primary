@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Adil Sami</title>
+        <!-- stylesheets -->
+        <link rel="stylesheet" type="text/css" href="style/site-style.css">
+        <!-- favicon -->
+        <link rel="shortcut icon" href="assets/logo/logo-solo-white.svg" type="image/png">
+        <!-- fontawesome -->
+        <script src="https://kit.fontawesome.com/1d287cacfb.js" crossorigin="anonymous"></script>
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <header>
+        <nav>
+            <div id="navbar" class="navbar">
+                <!--Used for bg of navbar-->
+                <a href="index.html"><img src="assets/logo/logo-white.svg" alt="logo" class="logo"></a>
+
+                <span id="burgerbtn" class="burger" onclick="openNav()"><i class="fas fa-bars"></i></span>
+            </div>
+
+            <div id="myNav" class="overlay">
+                <!--Used for bg of navlinks-->
+                <span id="closebtn" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></span>
+                <ul class="navlinks">
+                    <li><a href="index.html" onclick="closeNav()">Home</a></li>
+                    <li><a href="index.html#to-about" onclick="closeNav()">About</a></li>
+                    <li><a href="index.html#to-project" onclick="closeNav()">Projects</a></li>
+                    <li><a href="index.html#to-contact" onclick="closeNav()">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <body>
+
+        <div id="to-hero" class="hero">
+            <div class="container">
+                <div class="hero-text">
+                    <div class="hero-data">
+                        <h1>Hi, I'm Adil Sami</h1>
+                        <span id="textArray"></span><br>
+                        <p>I believe in designing thoughtful and creative products to solve and provide exceptional experience using various tools & technology.</p>
+                        <div class="btn-hero">
+                            <button onclick="window.open('assets/adilsami-resume.pdf', '_blank')" class="btn-hero-btn">Resume</button>
+                            <button style="margin-left:3%;" onclick="window.location.href='#to-project'" class="btn-hero-btn">Project</button>
+                        </div>
+                        <div class="social">
+                            <a href="https://www.linkedin.com/in/adil-sami-b82432184/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://github.com/adilaasami" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.instagram.com/adil.asami/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="to-about" class="about">
+            
+            <div class="container">
+                <h2>About</h2>
+                <div class="about-item">
+                    <!-- contain image inside a div for better scale and resolution -->
+                    <img class="img-m2" src="images/author-profile.png" alt="Author Profile Picture"> 
+                    <div class="about-text">
+                        <h3>Who am I?</h3>
+                        <p>Passionate and an award winning UX designer and front-end developer with a talent for adaptability and meticulous attention to detail. Originally from Arlington, VA, now thriving in Dallas, TX, I immerse myself in all facets of UX design, from ideation to visual design and frontend development, with expertise in SEO, Generative AI in UX, and responsiveness. Whether I'm grooving to my favorite tunes or devouring articles, I'm constantly brainstorming innovative design ideas. I thrive on challenges, exploring the delicate interplay between human cognition and digital interfaces, aiming to make experiences both fun and memorable. Let's join forces to craft user experiences that exceed expectations and leave a lasting impression on the digital landscape.</p>
+                        <h4>My Education</h4>
+                        <p><strong>University of Texas at Arlington</strong>, Aug 2017 - May 2021 B.A. in Information & Communication Technology Arlington, TX</p>
+                        <p><strong>Certification:</strong> Adobe Illustrator - Associates (2017), Adobe Photoshop - Associates (2017), Google User Experience Designer - Professional (2023)</p>
+                        <p><strong>Awards:</strong> Silver Anvil Award - Dynamic Integrated Services (DIS) & MVP (2024), Texas State-Digital Illustration (2017)</p>
+                    </div>
+                </div>
+
+                <div class="skill-items">
+                    <h3>Skills</h3>
+                    <div class="skill-items-wrapper">
+                        <div class="skill-item">
+                            <p><strong>Some examples of hard skills include but not limited to:</strong></p><br />
+                            <ul>
+                                <li>Frontend Development - Proficient in JavaScript, TypeScript, HTML, CSS, Bootstrap.</li>
+                                <li>UX Design & Research - Strong in wireframing, prototyping, A/B testing, usability testing.</li>
+                                <li>Web Accessibility & Compliance - Expertise in WCAG, 508 Compliance.</li>
+                                <li>DevOps & Version Control - Skilled in GitHub, Azure DevOps, Jenkins, Jira, AWS, Markdown Language.</li>
+                                <li>Generative AI in UX - Using AI for UX insights and automation.</li>
+                                <li>Database & Backend Knowledge - Knowledge of SQL, MySQL, PHP, JSON.</li>
+                                <li>Design Tools & Software - Figma, Adobe XD, Photoshop, Illustrator.</li>
+                            </ul>
+                        </div>
+
+                        <div class="skill-item">
+                            <p><strong>Some examples of soft skills include but not limited to:</strong></p><br />
+                            <ul>
+                                <li>User-Centered Mindset - Designs with empathy and user needs in focus.</li>
+                                <li>Collaboration - Works well with teams, developers, and stakeholders.</li>
+                                <li>Problem-Solving - Tackles UX and frontend challenges efficiently.</li>
+                                <li>Communication - Presents ideas and usability findings clearly.</li>
+                                <li>Adaptability - Quick to learn new tools and trends.</li>
+                                <li>Attention to Detail - Ensures accessibility and pixel-perfect execution.</li>
+                                <li>Project Management - Manages multiple projects and deadlines effectively.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-experiences">
+                    <h3>Work Experience</h3>
+                    <div class="work-experiences-wrapper">
+
+                        <div class="work-experience-item">
+                            <!-- logo here & read more feature -->
+                            <div class="company-logo">
+                                <img src="assets/logo/dis-logo.svg" alt="Company logo">
+                            </div>
+                            <p><strong>Dynamic Integrated Services (DIS)</strong></p>
+                            <p><strong>Date:</strong> March 2022 - Present</p>
+                            <p><strong>Job Type:</strong> Full-time</p>
+                            <p><strong>Role or Roles:</strong> Senior Analyst 2022-2023, Consultant I 2023-2024, Consultant II 2024-Present</p><br />
+                            <p>Design and develop federal websites to support strategic communications, marketing, outreach, and education initiatives by gathering data and requirements, conducting audits, creating information architectures, wireframes, mockups, user flows, and journey maps based on industry best practices following WCAG accessibility standards, user insights, and generative AI technology. Assist in testing and implementing government websites while maintaining an adaptable and detail-oriented mindset, while thriving in an agile environment. Performed usability testing, validation, front-end web development, and participated in both moderated and unmoderated usability studies to enhance functionality and user experience. My key projects include VA Million Veteran Program (MVP), VA Women's Health, MIRECC (TBI Toolkit, TWFV, PSCI-SPC), VA NCP (Main Website, MOVE), VA NCPS-&-QPS, VA HAP, and VA LGY, using Figma and Adobe XD for web designs and Illustrator and Photoshop for graphic-related designs. Helped MVP surpass 1M+ veteran enrollments by the end of 2023 and increased website interaction by over 40% through improved UX, development enhancements, content strategy, and making sure to alway foster friendly client and team collaboration. Independently administered the 70+ page VA Women's Health website with little to no supervision, leading to a 30% increase in user satisfaction.</p>
+                        </div>
+
+                        <div class="work-experience-item">
+                            <!-- logo here & read more feature -->
+                            <div class="company-logo">
+                                <img src="assets/logo/sample-logo.svg" alt="Company logo">
+                            </div>
+                            <p><strong>Unprotectedvictims</strong></p>
+                            <p><strong>Date:</strong> March 2021 - May 2021</p>
+                            <p><strong>Job Type:</strong> Internship</p>
+                            <p><strong>Role or Roles:</strong> UX Designer & Front-end Developer 2021</p><br />
+                            <p>Created the Communication brief to conduct Audience analysis, Perception/Tone/Guidelines, Communication strategy, Competitive positioning, and Target message, while maintaining a friendly atmosphere within team and client, and willingness to learn from mentorships. Initiated website design by creating Audience profiles from (Audience analysis), wireframes, and prototype using Figma. Created visual design guide (text, colors, icons, images). Developed the Front-end using HTML, CSS, Bootstrap 5, JavaScript for responsiveness and functionality. Conducted usability tests, and debugging for effectiveness, and overall increased brand awareness by 20% among new users.</p>
+                        </div>
+                        
+                        <div class="work-experience-item">
+                            <!-- logo here & read more feature -->
+                            <div class="company-logo">
+                                <img src="assets/logo/sample-logo.svg" alt="Company logo">
+                            </div>
+                            <p><strong>Charly's Taqueria</strong></p>
+                            <p><strong>Date:</strong> September 2020 - November 2020</p>
+                            <p><strong>Job Type:</strong> Internship</p>
+                            <p><strong>Role or Roles:</strong> UX Designer & Full-Stack Developer 2020</p><br />
+                            <p>Conducted SEO from Google word search analytics, created SWOT analysis of company to compare against other competitors and researched User flows and Audience profile/personas, made sure to utilize time management software like teams to help with task executions and meet deadlines. Website design initiated with creating the sitemap, scalable wireframes, and high-fidelity prototype using Adobe XD. Front-end work included HTML, CSS, Bootstrap 4 for responsive design, back-end work was done by establishing a MySQL database, utilizing PHP for dynamic menu display and checkout. Conducted usability tests and thorough debugging process, which overall increased order rate by 25%.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="knowledge">
+                <div class="container">
+                    <div class="knowledge-cards-wrapper">
+                        <div class="knowledge-card">
+                            <h4>Graphic Design</h4>
+                            <p>I work on designing professional graphic arts using vector or photographs to create pieces of art. Using Adobe creative suite like Illustrator and Photoshop to create stunning posters, banners and graphic illustrations for advertising.</p>
+                        </div>
+                        <div class="knowledge-card">
+                            <h4>Frontend Code</h4>
+                            <p>Web or client-side development is one of my greatest skills, especially when working with HTML, CSS and JavaScript. Making Web Applications user friendly and highly flexible on all devices and having content hiercahy is one of my feats. But not only that also keeping up with newer trends on design is a great way to constantly stay on my toes.</p>
+                        </div>
+                        <div class="knowledge-card">
+                            <h4>UI Design</h4>
+                            <p>Using my skills on anticipating user needs and wants I ensure that my designs have elements easy for users to access, understand and use. I do this by architecting my design on XD and Figma to make sure that the design is able to communicate with the user effectively.</p>
+                        </div>
+                        <div class="knowledge-card">
+                            <h4>UX Design</h4>
+                            <p>Leveraging my expertise in anticipating user needs, I craft intuitive designs that prioritize accessibility, clarity, and usability. Using Figma and Adobe XD, I structure my designs to ensure seamless user interaction, creating interfaces that effectively communicate and enhance the overall user experience.</p>
+                        </div>
+                        <div class="knowledge-card">
+                            <h4>UX Research</h4>
+                            <p>When making a product design I ensure that I understand the Why, What, and How. This way I am able to provide a meaningful and relevant experience to the user. It is done by understanding user needs and wants the brand, making the design user friendly by designing for scalability for all devices and functionality.</p>
+                        </div>
+                        <div class="knowledge-card">
+                            <h4>Data Manegment</h4>
+                            <p>Storing data and managing them in order to integrate them into a Web Application is a big process. I have done exactly that with my project by storing data inside a secure data management program and integrating that into the website for checkout functionality.</p>
+                        </div>
+                        <div class="knowledge-card">
+                            <h4>Time Manegment</h4>
+                            <p>I manage my time effectively by prioritizing tasks, setting clear goals, and maintaining a structured workflow. By balancing design, development, and collaboration, I ensure that projects stay on track and deadlines are met without compromising quality.</p>
+                        </div>
+                        <div class="knowledge-card">
+                            <h4>A/B Testing</h4>
+                            <p>Split testing is a big key feature methodology that I heavily empathizes on when designing for clients. That way I get a great understanding of what they want in a website in order to grab their target audience attention.</p>
+                        </div>
+                        <div class="knowledge-card">
+                            <h4>Problem Solver</h4>
+                            <p>As you can tell I love problem solving, and coming up with ideas to fix a users problem is a great feeling. I do it by mostly listening to the problem and coming up with various solutions until we can narrow it down.</p>
+                        </div>
+                        <div class="knowledge-card">
+                            <h4>Communication</h4>
+                            <p>Having great communication is a very effective way to understand one another. I believe that by talking to one another we learn to understand each other and get a good idea of who they are. This is very crucial because that way designers and developers like us get to really put on the clients shoes and understand their issues better.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="to-project" class="project">
+            
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-wrapper">
+                    <ul class="project-tab">
+                        <li class="tabs" id="project-one">Project 01</li>
+                        <li class="tabs" id="project-two">Project 02</li>
+                        <li class="tabs" id="project-three">Project 03</li>
+                    </ul>
+                    <div id="project-details" class="project-details">
+                        <!-- dynamic display -->
+                         <div class="project-tab-disclaimer">
+                            <i class="fa-solid fa-circle-info"></i>
+                            <p>Please use the tabs to navigate through the projects. Each tab provides specific details about a different project. Ensure you click on a tab to view the corresponding information.</p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider">
+                <div class="container middle-text">
+                    <h5>Checkout My Other Projects</h5>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="filter-clicker">
+                    <button class="btn" onclick="myFilter()">Filter</button>
+                </div>
+                <ul id="myfilter" class="filter">
+                    <li class="list tabs" data-filter="All" >All</li>
+                    <li class="list tabs" data-filter="UXCaseStudy">UX Case Study</li>
+                    <li class="list tabs" data-filter="WebDev">Web Development</li>
+                    <li class="list tabs" data-filter="Graphic">Graphic Design</li>
+                    <li class="list tabs" data-filter="Photography">Photography</li>
+                </ul>
+
+                <div class="filter-content">
+
+                    <div class="other-project-images UXCaseStudy">
+                        <a href="project/foodie-case-study.html" title="Foodie UX Case Study">
+                            <img src="images/project-foodie.png" alt="Foodie"></a>
+                    </div>
+
+                    <div class="other-project-images UXCaseStudy">
+                        <a href="project/brave-pet-case-study.html" title="BravePets UX Case Study">
+                            <img src="images/project-bravepet.png" alt="BrvaePets"></a>
+                    </div>
+
+                    <div class="other-project-images WebDev">
+                        <a href="project/unprotected-victims.html" title="UnprotectedVictims Web Development">
+                            <img src="images/project-unprotected.png" alt="UnProtectedVictims"></a>
+                    </div>
+
+                    <div class="other-project-images UXCaseStudy">
+                        <a href="#" title="Deli Potential">
+                            <img src="images/project-deli.png" alt="Deli Potential"></a>
+                    </div>
+
+                    <div class="other-project-images UXCaseStudy">
+                        <a href="#" title="Fitbox">
+                            <img src="images/project-fitbox.png" alt="Fitbox"></a>
+                    </div>
+
+                    <div class="other-project-images UXCaseStudy">
+                        <a href="#" title="nextravel">
+                            <img src="images/project-nextravel.png" alt="nextravel"></a>
+                    </div>
+
+                    <div class="other-project-images UXCaseStudy">
+                        <a href="assets/Homeara.pdf" title="Homeara UX Design" target="_blank">
+                            <img src="images/project-homeara.png" alt="Homeara"></a>
+                    </div>
+
+                    <div class="other-project-images UXCaseStudy">
+                        <a href="assets/voygr.pdf" title="Voygr UX Design" target="_blank">
+                            <img src="images/project-voy.png" alt="Voygr"></a>
+                    </div>
+
+                    <div class="other-project-images UXCaseStudy">
+                        <a href="assets/bondx.pdf" title="BondX UX Design" target="_blank">
+                            <img src="images/project-bondx.png" alt="BondX"></a>
+                    </div>
+
+                </div>
+
+        </section>
+
+        <section id="to-contact" class="contact">
+
+            <div class="container contact-wrapper">
+                <div>
+                    <span>Lets Get in Touch</span>
+                    <p>Let's build something great together—get in touch for your next web project!</p>
+                    <button onclick="window.location.href='mailto:adisiddque6@gmail.com'" class="btn">Email Me</button>
+                </div>
+                <div id="mascot">
+                    <img src="assets/computer-mascot.png" alt="Computer Mascot">
+                </div>
+            </div>
+
+        </section>
+
+        <!-- map -->
+        <div style="-webkit-filter: grayscale(100%); filter: grayscale(100%);">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d214586.90393107315!2d-96.87197966852334!3d32.820874700207725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647678f!2sDallas%2C%20TX!5e0!3m2!1sen!2sus!4v1634857158089!5m2!1sen!2sus" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+        <!-- GSAP cdn w/ ScrollTrigger -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+        <!-- jQuery cdn -->
+        <script src="https://code.jquery.com/jquery-3.6.0.js"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <!-- my js -->
+        <script src="script/app.js"></script>
+    </body>
+
+<footer>
+
+    <div class="container">
+        <div class="footer-section">
+            <div class="footer-footer">
+                <a href="index.html"><img src="assets/logo/logo-white.svg" alt="footer logo" class="footer-logo"></a>
+                <ul class="footer-navlinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#to-about">About</a></li>
+                    <li><a href="index.html#to-project">Projects</a></li>
+                    <li><a href="index.html#to-contact">Contact</a></li>
+                </ul>
+                <ul class="footer-otherlinks">
+                    <li><a href="https://www.behance.net/adil_asami">Behance</a></li>
+                    <li><a href="assets/adilsami-resume.pdf" target="_blank">Resume</a></li>
+                </ul>
+                <ul class="footer-backtotop">
+                    <li><a href="#to-hero">Back to top <span>&#8628;</span></a></li>
+                </ul>
+            </div>
+            <p>© 2025 Adil Sami. All Rights Reserved.</p><br />
+            <hr>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/adil-sami-b82432184/" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/adilaasami" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/adil.asami/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    
+</footer>
+
+</html>

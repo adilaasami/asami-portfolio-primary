@@ -1,0 +1,80 @@
+/* 
+Title: Portfolio stylesheet file for footer design.
+Author: Adil Sami
+Date created: 01/01/2021
+Last update: 03/10/2025
+
+Purpose: Keep a consistent and organized design footer design throughout the webpages.
+
+Author notes: None
+*/
+
+hr {
+    border: 1px solid rgba(24, 24, 24, 1);
+
+}
+
+footer {
+    background-color: #050400;
+    color: #fff;
+}
+
+footer .container .footer-section .footer-footer a .footer-logo {
+    width: 50%;
+    height: auto;
+}
+
+footer .container .footer-section {
+    padding: 10% 0;
+}
+
+footer .container .footer-section .footer-footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr auto;
+    column-gap: 3rem;
+    padding-bottom: 130px;
+}
+
+footer .container .footer-section .footer-footer ul li {
+    list-style-type: none;
+    font-size: 1.125rem;
+    line-height: 2.5rem;
+}
+
+footer .container .footer-section .footer-footer li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .container .footer-section .footer-footer li a:hover {
+    color: #4E5FFF;
+    transition: 0.5s;
+}
+
+footer .container .footer-section .footer-footer .footer-backtotop span {
+    display: inline-block;
+    transform: rotate(180deg);
+    transform: scaleY(-1);
+}
+
+
+/* responsiveness */
+@media (max-width: 560px) {
+    footer .container .footer-section .footer-footer a .footer-logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    footer .container .footer-section {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1040px) {
+    footer .container .footer-section .footer-footer {
+        display: flex;
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+}
