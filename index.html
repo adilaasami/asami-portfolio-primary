@@ -8,7 +8,7 @@
         <!-- stylesheets -->
         <link rel="stylesheet" type="text/css" href="style/site-style.css">
         <!-- favicon -->
-        <link rel="shortcut icon" href="assets/logo/logo-solo-white.svg" type="image/png">
+        <link rel="shortcut icon" id="favicon" href="assets/logo/logo-solo-black.svg" type="image/png">
         <!-- fontawesome -->
         <script src="https://kit.fontawesome.com/1d287cacfb.js" crossorigin="anonymous"></script>
         <!-- google fonts -->
@@ -50,7 +50,7 @@
                         <p>I believe in designing thoughtful and creative products to solve and provide exceptional experience using various tools & technology.</p>
                         <div class="btn-hero">
                             <button onclick="window.open('assets/adilsami-resume.pdf', '_blank')" class="btn-hero-btn">Resume</button>
-                            <button style="margin-left:3%;" onclick="window.location.href='#to-project'" class="btn-hero-btn">Project</button>
+                            <button style="margin-left: 10px;" onclick="window.location.href='#to-project'" class="btn-hero-btn">Project</button>
                         </div>
                         <div class="social">
                             <a href="https://www.linkedin.com/in/adil-sami-b82432184/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
@@ -73,8 +73,8 @@
                         <h3>Who am I?</h3>
                         <p>Passionate and an award winning UX designer and front-end developer with a talent for adaptability and meticulous attention to detail. Originally from Arlington, VA, now thriving in Dallas, TX, I immerse myself in all facets of UX design, from ideation to visual design and frontend development, with expertise in SEO, Generative AI in UX, and responsiveness. Whether I'm grooving to my favorite tunes or devouring articles, I'm constantly brainstorming innovative design ideas. I thrive on challenges, exploring the delicate interplay between human cognition and digital interfaces, aiming to make experiences both fun and memorable. Let's join forces to craft user experiences that exceed expectations and leave a lasting impression on the digital landscape.</p>
                         <h4>My Education</h4>
-                        <p><strong>University of Texas at Arlington</strong>, Aug 2017 - May 2021 B.A. in Information & Communication Technology Arlington, TX</p>
-                        <p><strong>Certification:</strong> Adobe Illustrator - Associates (2017), Adobe Photoshop - Associates (2017), Google User Experience Designer - Professional (2023)</p>
+                        <p><strong>The University of Texas at Arlington</strong>, Aug 2017 - May 2021 B.A. in Information & Communication Technology Arlington, TX</p>
+                        <p><strong>Certification:</strong> Adobe Illustrator - Associates (2017), Adobe Photoshop - Associates (2017), <a href="docs/google-ux-design-professional-certificate.pdf" title="Google User Experience Designer Certification PDF (opens in new tab/window)" target="_blank">Google User Experience Designer</a> - Professional (2023) (<a href="https://www.credly.com/badges/ac186c96-3fdf-4caa-98e1-0c97b9734c55/linked_in_profile" title="Certification Credential (opens in new tab/window)" target="_blank">Show-Credential</a>)</p>
                         <p><strong>Awards:</strong> Silver Anvil Award - Dynamic Integrated Services (DIS) & MVP (2024), Texas State-Digital Illustration (2017)</p>
                     </div>
                 </div>
@@ -236,57 +236,111 @@
                 </div>
                 <ul id="myfilter" class="filter">
                     <li class="list tabs" data-filter="All" >All</li>
-                    <li class="list tabs" data-filter="UXCaseStudy">UX Case Study</li>
-                    <li class="list tabs" data-filter="WebDev">Web Development</li>
+                    <li class="list tabs" data-filter="Dev">Development</li>
+                    <li class="list tabs" data-filter="UXDesign">UX Design</li>
                     <li class="list tabs" data-filter="Graphic">Graphic Design</li>
                     <li class="list tabs" data-filter="Photography">Photography</li>
                 </ul>
 
                 <div class="filter-content">
 
-                    <div class="other-project-images UXCaseStudy">
-                        <a href="project/foodie-case-study.html" title="Foodie UX Case Study">
+                    <div class="other-project-images UXDesign">
+                        <div>
+                            <a href="project/foodie-case-study.html" title="Foodie UX Case Study">
                             <img src="images/project-foodie.png" alt="Foodie"></a>
+                        </div>
+                        <div class="caption">
+                            <h3>Foodie Mobile Application</h3>
+                            <p style="color: #9A9A9A;">UX Case Study</p>
+                        </div>
                     </div>
 
-                    <div class="other-project-images UXCaseStudy">
-                        <a href="project/brave-pet-case-study.html" title="BravePets UX Case Study">
+                    <div class="other-project-images UXDesign">
+                        <div>
+                            <a href="project/brave-pet-case-study.html" title="BravePets UX Case Study">
                             <img src="images/project-bravepet.png" alt="BrvaePets"></a>
+                        </div>
+                        <div class="caption">
+                            <h3>BravePets Responsive Web Application</h3>
+                            <p style="color: #9A9A9A;">UX Case Study</p>
+                        </div>
                     </div>
 
-                    <div class="other-project-images WebDev">
-                        <a href="project/unprotected-victims.html" title="UnprotectedVictims Web Development">
+                    <div class="other-project-images Dev">
+                        <div>
+                            <a href="project/unprotected-victims.html" title="UnprotectedVictims Web Development">
                             <img src="images/project-unprotected.png" alt="UnProtectedVictims"></a>
+                        </div>
+                        <div class="caption">
+                            <h3>Unprotected Victims Web Application</h3>
+                            <p style="color: #9A9A9A;">Software Development | UX Research</p>
+                        </div>
                     </div>
 
-                    <div class="other-project-images UXCaseStudy">
-                        <a href="#" title="Deli Potential">
+                    <div class="other-project-images UXDesign">
+                        <div>
+                            <a href="#" title="Deli Potential">
                             <img src="images/project-deli.png" alt="Deli Potential"></a>
+                        </div>
+                        <div class="caption">
+                            <h3>Deli Potential Mobile Application</h3>
+                            <p style="color: #9A9A9A;">Mini UX Case Study</p>
+                        </div>
                     </div>
 
-                    <div class="other-project-images UXCaseStudy">
-                        <a href="#" title="Fitbox">
+                    <div class="other-project-images UXDesign">
+                        <div>
+                            <a href="#" title="Fitbox">
                             <img src="images/project-fitbox.png" alt="Fitbox"></a>
+                        </div>
+                        <div class="caption">
+                            <h3>Fitbox Mobile Application</h3>
+                            <p style="color: #9A9A9A;">Mini UX Case Study</p>
+                        </div>
                     </div>
 
-                    <div class="other-project-images UXCaseStudy">
-                        <a href="#" title="nextravel">
+                    <div class="other-project-images UXDesign">
+                        <div>
+                            <a href="#" title="nextravel">
                             <img src="images/project-nextravel.png" alt="nextravel"></a>
+                        </div>
+                        <div class="caption">
+                            <h3>nextravel Mobile Application</h3>
+                            <p style="color: #9A9A9A;">Mini UX Case Study</p>
+                        </div>
                     </div>
 
-                    <div class="other-project-images UXCaseStudy">
-                        <a href="assets/Homeara.pdf" title="Homeara UX Design" target="_blank">
+                    <div class="other-project-images UXDesign">
+                        <div>
+                            <a href="assets/Homeara.pdf" title="Homeara UX Design PDF (opens in new tab/window)" target="_blank">
                             <img src="images/project-homeara.png" alt="Homeara"></a>
+                        </div>
+                        <div class="caption">
+                            <h3>Homeara Web Application</h3>
+                            <p style="color: #9A9A9A;">UX Design</p>
+                        </div>
                     </div>
 
-                    <div class="other-project-images UXCaseStudy">
-                        <a href="assets/voygr.pdf" title="Voygr UX Design" target="_blank">
+                    <div class="other-project-images UXDesign">
+                        <div>
+                            <a href="assets/voygr.pdf" title="Voygr UX Design PDF (opens in new tab/window)" target="_blank">
                             <img src="images/project-voy.png" alt="Voygr"></a>
+                        </div>
+                        <div class="caption">
+                            <h3>Voygr Mobile Application</h3>
+                            <p style="color: #9A9A9A;">UX Design | UX Research</p>
+                        </div>
                     </div>
 
-                    <div class="other-project-images UXCaseStudy">
-                        <a href="assets/bondx.pdf" title="BondX UX Design" target="_blank">
+                    <div class="other-project-images UXDesign">
+                        <div>
+                            <a href="assets/bondx.pdf" title="BondX UX Design PDF (opens in new tab/window)" target="_blank">
                             <img src="images/project-bondx.png" alt="BondX"></a>
+                        </div>
+                        <div class="caption">
+                            <h3>BondX Mobile Application</h3>
+                            <p style="color: #9A9A9A;">UX Design | UX Research</p>
+                        </div>
                     </div>
 
                 </div>

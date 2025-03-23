@@ -2,7 +2,7 @@
 Title: Portfolio stylesheet file for all page stles and layout designs.
 Author: Adil Sami
 Date created: 01/01/2021
-Last update: 03/10/2025
+Last update: 03/22/2025
 
 Purpose: Keep a consistent and organized design layout throughout the webpages.
 
@@ -68,8 +68,8 @@ h5 {
 
 p, li {
     font-family: "Open Sans", sans-serif;
-    font-size: 0.875rem;
-    line-height: 20px;
+    font-size: 1rem;
+    line-height: 22px;
     font-weight: 400;
     padding-bottom: 10px; 
 }
@@ -85,8 +85,8 @@ ul li {
 .btn {
     background: #050400;
     color: #fff;
-    width: 150px;
-    height: 50px;
+    width: 102px;
+    height: 46px;
     font-size: 0.875rem;
     font-weight: 400;
     border: none;
@@ -419,6 +419,23 @@ a:hover {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
 }
+
+.project .container .filter-content .other-project-images .caption {
+    margin-top: 20px;
+}
+
+.project .container .filter-content .other-project-images div {
+    overflow: hidden;
+}
+
+.project .container .filter-content .other-project-images div a img {
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.project .container .filter-content .other-project-images div a img:hover {
+    transform: scale(1.07);
+}
 /* end */
 
 /* contact */
@@ -452,12 +469,68 @@ a:hover {
 /* end */
 
 /* project template */
-.project-template-main-margin { /* shared */
+/* shared */
+.project-template-main-margin {
     margin: 15% 0;
 }
 
-.project-template-sub-margin { /* shared */
+.project-template-sub-margin {
     margin: 5% 0;
+}
+
+.project-template-keyinfo-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.container .project-template-data-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+}
+
+.container .project-template-data-content div .project-data-content-images {
+    min-width: 588px;
+    height: auto;
+    overflow: hidden;
+}
+
+.project-template-designs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.project-template-project-final-content-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.project-template-project-final-content-cards .project-template-final-content-card {
+    background-color: #050400;
+    color: white;
+    padding: 5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.project-template-project-final-content-cards .project-template-final-content-card div {
+    background-color: #fff;
+    color: #050400;
+    padding: 2rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .project-template-image-385 {
@@ -465,6 +538,7 @@ a:hover {
     height: auto;
     overflow: hidden;
 }
+/* end */
 
 .project-template-hero {
     background-repeat: no-repeat !important;
@@ -490,12 +564,6 @@ a:hover {
     overflow: hidden;
 }
 
-.project-template-keyinfo-wrapper { /* shared */
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
-}
-
 .project-template-introduction .container .project-template-keydata {
     background-color: #050400;
     padding: 4rem;
@@ -511,18 +579,6 @@ a:hover {
     color:  #fff;
 }
 
-.container .project-template-data-content { /* shared */
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5rem;
-}
-
-.container .project-template-data-content div .project-data-content-images { /* shared */
-    min-width: 588px;
-    height: auto;
-    overflow: hidden;
-}
-
 .project-template-data-1 .container .project-template-persona .project-template-persona-cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -535,10 +591,8 @@ a:hover {
     overflow: hidden;
 }
 
-.project-template-designs { /* shared */
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
+.project-template-data-3 .container .project-template-mockups .project-template-video {
+    margin-top: 5%;
 }
 
 .project-template-data-4 .container .project-template-documentations {
@@ -551,6 +605,18 @@ a:hover {
     background-color: #fff;
     padding: 4rem;
     filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));;
+}
+
+.project-template-data-4 .container .project-template-metrics-data {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4rem;
+}
+
+.project-template-data-4 .container .project-template-metrics-data .project-template-metrics-data-content .project-template-metrics-data-img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
 }
 
 .project-template-data-5 .container .project-template-mockups .project-template-video {
@@ -568,37 +634,6 @@ a:hover {
 .project-template-data-6 .project-template-accssibility h2 {
     text-align: center;
     padding: 0;
-}
-
-.project-template-project-final-content-cards { /* shared */
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
-}
-
-.project-template-project-final-content-cards .project-template-final-content-card { /* shared */
-    background-color: #050400;
-    color: white;
-    padding: 5rem;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-
-}
-
-.project-template-project-final-content-cards .project-template-final-content-card div { /* shared */
-    background-color: #fff;
-    color: #050400;
-    padding: 2rem;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .project-template-data-6 .container .project-template-lesson {
@@ -648,6 +683,13 @@ a:hover {
 
 /* phone */
 @media (max-width: 560px) {
+    .about .container .work-experiences .work-experiences-wrapper .work-experience-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
     .about .knowledge .container .knowledge-cards-wrapper .knowledge-card {
         text-align: center;
     }
@@ -676,6 +718,18 @@ a:hover {
     .project-template-designs {
         display: flex;
         flex-direction: column;
+    }
+
+    .project-template-data-4 .container .project-template-metrics-data {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-template-data-4 .container .project-template-metrics-data .project-template-metrics-data-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
     /* end */
 }
@@ -801,6 +855,10 @@ a:hover {
     .project-template-data-6 .container .project-template-lesson {
         display: flex;
         flex-direction: column;
+    }
+
+    .project-template-data-4 .container .project-template-metrics-data {
+        grid-template-columns: 1fr 1fr;
     }
     /* end */
 }
