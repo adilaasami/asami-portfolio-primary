@@ -69,9 +69,7 @@ function projectTab() {
     <p style="font-weight: 200;">Project 01</p>
     <h3>Foodie Mobile Application</h3>
     <p style="color: #9A9A9A;">UX Case Study</p>
-    <p>For the Foodie App case study, I conducted a competitive audit and identified user pain points, creating personas, journey maps, wireframes, and
-    prototypes, using Figma. An unmoderated usability study with 5+ participants revealed key concerns, which I addressed with generative AI insights and accessibility
-    improvements, finalizing the mockup design after iterative testing.</p>
+    <p>For the Foodie App case study, I created a goal statement, target analysis report, competitive audit, and survey; identified user pain points, then created personas, user journey maps, wireframes, mockups, and prototypes, using Figma. An unmoderated usability study with 5 plus participants revealed key concerns, which I addressed with generative AI insights and accessibility improvements, finalizing the mockup design after iterative testing.</p>
     <ul>
     <li>Figma</li>
     <li>Illustrator</li>
@@ -89,8 +87,7 @@ function projectTab() {
     <p style="font-weight: 200;">Project 02</p>
     <h3>BravePets Responsive Web Application</h3>
     <p style="color: #9A9A9A;">UX Case Study</p>
-    <p>For the BravePets responsive website case study, I conducted a competitive audit and analyzed the target audience to identify user pain points,
-    creating personas, user journey maps, wireframes, and prototypes for desktop and mobile, using Adobe XD. A moderated usability study with 5+ participants revealed concerns, which I addressed using generative AI insights and accessibility improvements, refining the design through iterative testing before finalizing the website mockups.</p>
+    <p>For the BravePets responsive website case study, I created a goal statement, target analysis report, competitive audit, and survey; identified user pain points, then created personas, user journey maps, wireframes, mockups, and prototypes for desktop and mobile, using Adobe XD. A moderated usability study with 5 plus participants revealed concerns, which I addressed using generative AI insights and accessibility improvements, refining the design through iterative testing before finalizing the website mockups.</p>
     <ul>
     <li>Adobe XD</li>
     <li>Illustrator</li>
@@ -108,7 +105,7 @@ function projectTab() {
     <p style="font-weight: 200;">Project 03</p>
     <h3>Unprotected Victims Web Application</h3>
     <p style="color: #9A9A9A;">Software Development | UX Research</p>
-    <p>Once the mockups were finalized, I developed the front-end using HTML, CSS, Bootstrap 5, and JavaScript, ensuring responsiveness and interactivity. I optimized for performance and cross-device/ browser compatibility. Conducted usability testing and debugging to refine the user experience.</p>
+    <p>Once mockups were finalized, I developed the front-end using HTML, CSS, Bootstrap, and JavaScript, ensuring responsiveness and interactivity. I optimized performance, SEO, cross-device & browser compatibility, conducted usability testing, and debugging to refine the user experience.</p>
     <ul>
     <li>Figma</li>
     <li>Illustrator</li>
