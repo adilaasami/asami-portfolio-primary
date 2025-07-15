@@ -175,7 +175,7 @@ a:hover {
 
 .hero .container .hero-text .hero-data #textArray {
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 2.25rem;
     color: #4E5FFF;
     padding-top: 0.938em;
 }
@@ -678,7 +678,7 @@ a:hover {
     }
 
     #textArray {
-        font-size: 1.9rem;
+        font-size: 1.45rem;
     }
 
     .project-template-data-6 .project-template-accssibility {
