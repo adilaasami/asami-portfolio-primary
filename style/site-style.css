@@ -38,7 +38,7 @@ html {
 
 /* shared */
 h1 {
-    font-size: 2.25rem;
+    font-size: 3rem;
     font-weight: 700;
     padding-bottom: 50px;
 }
@@ -161,7 +161,7 @@ a:hover {
 
 .hero .container .hero-text .hero-data h1 {
     font-weight: 700;
-    font-size: 2.25rem;
+    font-size: 3rem;
     padding-bottom: 0 !important;
     color: #fff;
     
@@ -175,7 +175,7 @@ a:hover {
 
 .hero .container .hero-text .hero-data #textArray {
     font-weight: 700;
-    font-size: 2.25rem;
+    font-size: 3rem;
     color: #4E5FFF;
     padding-top: 0.938em;
 }
@@ -673,14 +673,6 @@ a:hover {
 
 /* m phone */
 @media (max-width: 420px) {
-    .hero-text h1 {
-        font-size: 1.45rem;
-    }
-
-    #textArray {
-        font-size: 1.45rem;
-    }
-
     .project-template-data-6 .project-template-accssibility {
         padding: 0.5rem;
     }
@@ -688,6 +680,15 @@ a:hover {
 
 /* phone */
 @media (max-width: 560px) {
+    .hero .container .hero-text .hero-data h1 {
+        font-size: 2.10rem;
+        
+    }
+
+    .hero .container .hero-text .hero-data #textArray {
+        font-size: 2.10rem;
+    }
+
     .about .container .work-experiences .work-experiences-wrapper .work-experience-item {
         display: flex;
         flex-direction: column;
